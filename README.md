@@ -1,6 +1,6 @@
 # Unofficial Bonjour Madame API
 
-Plaisant demo `http://giskard.aqelia.com:8888/`
+Plaisant demo [Bonjour Madame !](http://giskard.aqelia.com:8888/)
 
 ## Installation
 
