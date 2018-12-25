@@ -5,4 +5,7 @@ WORKDIR /usr/app
 COPY package.json .
 RUN npm install --quiet
 
-COPY . .
+COPY index.js .
+
+EXPOSE 8888
+CMD [ "npm", "start" ]
