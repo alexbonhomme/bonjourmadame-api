@@ -1,5 +1,6 @@
 const express = require('express');
 const request = require('request');
+const cors = require('cors')
 const { JSDOM } = require('jsdom');
 const BM_URL = 'http://www.bonjourmadame.fr/';
 
@@ -41,6 +42,8 @@ function errorHandler (err, req, res, next) {
 }
 
 const app = express()
+
+app.use(cors())
 
 // direct madame picture
 app.get('/', function (_, res, next) {
